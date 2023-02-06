@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Comfortaa', cursive;
+    background-color: #3d7691}
+
+.nav {
+    list-style: none;
+    text-align: center;}
+
+.nav li{
+    display: inline;}
+    
+.nav a {    
+    font-family: 'Nanum Myeongjo', serif;
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;}
+
+h1 {
+    text-align: center;
+    padding: 10px;    
+    font-family: 'Nanum Myeongjo', serif;
+    border-top: solid; 
+    background-color: #e29787 }
+
+
+.container p {
+    padding: 50px;
+    background-color: #e29787;
+    border-style: solid;
+    font-size: 18px;}
+
+img { 
+    width: 375px;
+    height: 500px;
+    border: 2px solid black;}
+
+.container {
+    border-style: groove;
+    border-color:rgb(0, 0, 0);
+    width: 70%;
+    margin: auto;    
+    border-style: solid;
+    line-height: 1.8;
+    word-spacing: 2px;
+    background-color: #e29787}
+    
+.section1 {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 70%;    
+    margin: auto;
+    border-style: solid; 
+    border-bottom: none;}
+    
+.section2 {
+    
+    display: flex;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;}
+
+.section3 {
+    
+    display: flex;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;}
+
+.section1 p{
+    border-right:none;}
+
+.section2 p{
+    border-left:none;}
+
+.section3 p{
+    border-right:none;}
+
+.web {
+    text-align: center;
+    margin: 50px}
+
+.site {
+    display: inline;     
+    padding: 5px;
+    border: solid black;}
+
+.site:link {
+    
+    color:black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;}
+
+.site:visited {
+    color: black;}
+
+.site:hover {
+    color: white;}
+
+
+
+
+
+
+
+
+
