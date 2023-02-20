@@ -19,7 +19,9 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    color: black;}
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;}
 
 h1 {
     text-align: center;
@@ -29,7 +31,7 @@ h1 {
     background-color: #e29787 }
 
 
-.container p {
+#container p {
     padding: 50px;
     background-color: #e29787;
     border-style: solid;
@@ -40,7 +42,7 @@ img {
     height: 500px;
     border: 2px solid black;}
 
-.container {
+#container {
     border-style: groove;
     border-color:rgb(0, 0, 0);
     width: 70%;
@@ -88,6 +90,20 @@ img {
 
 .section3 p{
     border-right:none;}
+
+    .top-div {
+        width: 70%;
+        margin: 50px auto 50px auto;}
+    
+    .top {
+        font-family: 'Nanum Myeongjo', serif;
+        display: inline;     
+        padding: 5px;
+        border: 3px solid black;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 900;}
 
 .web {
     text-align: center;
