@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Comfortaa', cursive;
-    background-color: #3d7691;
-}
+    background-color: #3d7691;}
 
 .nav {
     list-style: none;
@@ -18,13 +17,20 @@
     display: inline-block;    
     padding: 1px;    
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;}
+    padding-left: 10px;
+    padding-right: 10px;}
 
+.home:hover {
+    background-color:#e29787;}  
 
+.about:hover {
+    background-color:#e29787;} 
+    
+.hobbies:hover {
+    background-color:#e29787;} 
     
 h1 {
     text-align: center;
@@ -34,88 +40,81 @@ h1 {
     background-color: #e29787}
 
 h2 {
+    text-align: center;
     text-decoration: underline;
     background-color: #e29787;
-    padding-left: 50px;
-    padding-top: 5px;
-}
+    padding: 10px 0 10px 0;}
 
 #container p {
     font-size: 18px;
-    line-height: 1.7;
-    padding: 30px;    
+    line-height: 1.5;
+    padding: 0 20px 0 20px;    
     background-color: #e29787;}
 
 figure {
-    background-color: #e29787;    
-}
+    background-color: #e29787;}
 
 figcaption {
     background-color: #e29787;
     text-align: center;
     font-size: 12px;
-    font-style: italic; 
-}
+    font-style: italic;}
 
 img {     
     border: 2px solid black;
-    float: right;
-}
+    float: right;}
 
 .images {
     width: 375px;
-    height: 425px;
-}
+    height: 425px;}
 
 .giraffe {
     width:375px;
-    height: 550px;
-}
+    height: 500px;}
 
 .paragraph{
     border: 3px solid black;
     text-align: justify;}
 
-#container {
-    border-style: groove;
+#container {    
     border-color:rgb(0, 0, 0);
     width: 70%;
     margin: auto;    
     border-style: solid;    
-    line-height: 1.8;
-    word-spacing: 2px;
+    line-height: 1.5;
+    word-spacing: 1px;
     background-color: #e29787}
 
 .section1, .section2, .section3, .section4 {
     display: flex;
     padding: 20px;
-    background-color: #e29787;
+    background-color: #e29787;}
     
-    
-}
-    
-.section{
-        
+.section{        
     border: 3px solid black;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     border-bottom: none;
-    padding: 40px; 
-    }
+    padding: 40px;}
 
 .top-div {
-    width: 70%;
-    margin: 50px auto 50px auto;}
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
 
 .top {
     font-family: 'Nanum Myeongjo', serif;
     display: inline;     
     padding: 5px;
-    border: 3px solid black;
+    border: 1px solid black;
+    border-radius: 3px;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;}
+
+.top:hover {
+    background-color: #e29787;}
         
 
